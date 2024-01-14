@@ -14,3 +14,7 @@ Instalação do Kafka
 Para iniciar o servidor: 
     * Acesar a pasta do kafka com o prompt de comando (powershell)
 	  -- executar o arquiv bat    .\bin\windows\kafka-server-start.bat  .\config\server.properties
+	  -- Será apresentado uma mensagem de erro, pois primeiro é preciso executar o servidor do zookeeper-server-start
+         *.\bin\windows\zookeeper-server-start.bat  .\config\zookeeper.properties
+		 *.\bin\windows\kafka-server-start.bat  .\config\server.properties
+	 
