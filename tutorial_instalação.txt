@@ -1,0 +1,16 @@
+1º Link para download: https://kafka.apache.org/
+2º Instalar o Java antes de instalar o Kafka
+3º Ferrament para acessar o Kafka de forma visual: Offset Explorer
+	https://www.kafkatool.com/download.html
+
+
+Instalação do Kafka
+	* Descompactar o arquivo kafka baixado
+	* Dentro da pasta bin/windows estão alguns arquivos importantes
+	  * kafka-server-start
+	  * zookeeper-server-start
+	* Dentro da pasta config arquivo "server.properties"  
+	
+Para iniciar o servidor: 
+    * Acesar a pasta do kafka com o prompt de comando (powershell)
+	  -- executar o arquiv bat    .\bin\windows\kafka-server-start.bat  .\config\server.properties
