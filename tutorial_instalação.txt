@@ -18,3 +18,23 @@ Para iniciar o servidor:
          *.\bin\windows\zookeeper-server-start.bat  .\config\zookeeper.properties
 		 *.\bin\windows\kafka-server-start.bat  .\config\server.properties
 	 
+Estrutura do Kakfa
+		CLUSTER
+			* Broker
+				* Tópico
+					* Partição
+			* Broker
+				* Tópico
+					* Partição	
+					
+Muito parecido com apartamento
+		CONDOMÍNIO
+			* Prédio / Bloco
+				* Andar
+					* Apartamento
+			* Prédio / Bloco
+				* Andar
+					* Apartamento					
+	
+	Servidor kafka com docker
+	
