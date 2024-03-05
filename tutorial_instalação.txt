@@ -41,8 +41,20 @@ Muito parecido com apartamento
 	Para rodar o compose: docker compose up -d
 	
 	
-	Criar um tópico de teste
+Criar um tópico de teste
 
 Acessar a pasta do kafka
 	será utilizado o arquivo  "kafka-topics.bat"
 	* .\bin\windows\kafka-topics.bat --create --topic cursos --bootstrap-server localhost:9094
+	 ## Nesse caso, estou criando o tópico para o cluster1, ou seja, ambos ficam na mesma porta 9094 (de acordo com o arquivo docker-compose)
+
+Para listar um cluster no aparche kafka	
+
+	* .\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9094
+
+	se eu utilizar mais de um host (localhost:...), ele irá mostrar todos os tópicos dos hosts informados
+
+	* .\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9094,localhost:9095    (sem espaço após a vírcula)
+
+Excluir um tópico
+	* .\bin\windows\kafka-topics.bat --delete --topic cursos --bootstrap-server localhost:9094
