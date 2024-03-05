@@ -37,4 +37,12 @@ Muito parecido com apartamento
 					* Apartamento					
 	
 	Servidor kafka com docker
+	criar o arquivo docker-compose.yml, implementar a configuração do docker
+	Para rodar o compose: docker compose up -d
 	
+	
+	Criar um tópico de teste
+
+Acessar a pasta do kafka
+	será utilizado o arquivo  "kafka-topics.bat"
+	* .\bin\windows\kafka-topics.bat --create --topic cursos --bootstrap-server localhost:9094
